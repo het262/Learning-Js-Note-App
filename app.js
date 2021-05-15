@@ -1,4 +1,4 @@
-console.log("First Project");
+console.log("First Project!!");
 showNotes();
 
 // If user adds a note, add it to the localStorage
