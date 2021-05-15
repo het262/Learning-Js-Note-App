@@ -26,18 +26,25 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search"
+                    aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search Note Title</button>
             </form>
         </div>
     </nav>
 
     <div class="container my-3">
         <div class="card">
+
             <div class="card-body">
+                <div class="form-group">
+                    <h5 class="card-title">Add Title</h5>
+                    <input type="email" class="form-control" id="addTitle" aria-describedby="emailHelp"
+                        placeholder="Enter Title">
+                </div>
                 <h5 class="card-title">Add New Note</h5>
                 <div class="form-group">
-                    <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                    <textarea class="form-control" id="addTxt" rows="3" placeholder="Enter Note"></textarea>
                 </div>
                 <button class="btn btn-primary" id="addBtn">Add</a>
             </div>
@@ -52,7 +59,7 @@
                     <a href="#" class="btn btn-primary">Delete Note</a>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
